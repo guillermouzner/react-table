@@ -27,6 +27,10 @@ export default function HomePage() {
         <p>Sorting Table</p>
         <SortingTable />
       </div>
+      <div className="text-black">
+        <p>Filtering Table</p>
+        <SortingTable />
+      </div>
     </div>
   );
 }
