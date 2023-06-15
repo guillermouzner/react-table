@@ -2,6 +2,7 @@ import {ColumnVisibilityTable} from "@/components/column-visibility-table";
 import {FormattingTable} from "@/components/formatting-table";
 import {PaginationTable} from "@/components/pagination-table";
 import {RowActionTable} from "@/components/row-actions-table";
+import {RowSelectionTable} from "@/components/row-selection-table";
 import {SimpleTable} from "@/components/simple-table";
 import {SortingTable} from "@/components/sorting-table";
 
@@ -35,6 +36,10 @@ export default function HomePage() {
       <div className="text-black">
         <p>Column Visibility Table</p>
         <ColumnVisibilityTable />
+      </div>
+      <div className="text-black">
+        <p>Row Selection Table</p>
+        <RowSelectionTable />
       </div>
     </div>
   );
