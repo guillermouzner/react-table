@@ -1,4 +1,5 @@
 import {FormattingTable} from "@/components/formatting-table";
+import {RowActionTable} from "@/components/row-actions-table";
 import {SimpleTable} from "@/components/simple-table";
 
 export default function HomePage() {
@@ -11,6 +12,10 @@ export default function HomePage() {
       <div className="text-black">
         <p>Formatting Table</p>
         <FormattingTable />
+      </div>
+      <div className="text-black">
+        <p>Row Actions</p>
+        <RowActionTable />
       </div>
     </div>
   );
