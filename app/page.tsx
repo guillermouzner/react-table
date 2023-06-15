@@ -2,6 +2,7 @@ import {FormattingTable} from "@/components/formatting-table";
 import {PaginationTable} from "@/components/pagination-table";
 import {RowActionTable} from "@/components/row-actions-table";
 import {SimpleTable} from "@/components/simple-table";
+import {SortingTable} from "@/components/sorting-table";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,10 @@ export default function HomePage() {
       <div className="text-black">
         <p>Pagination Table</p>
         <PaginationTable />
+      </div>
+      <div className="text-black">
+        <p>Sorting Table</p>
+        <SortingTable />
       </div>
     </div>
   );
