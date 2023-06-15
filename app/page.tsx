@@ -1,3 +1,4 @@
+import {ColumnVisibilityTable} from "@/components/column-visibility-table";
 import {FormattingTable} from "@/components/formatting-table";
 import {PaginationTable} from "@/components/pagination-table";
 import {RowActionTable} from "@/components/row-actions-table";
@@ -30,6 +31,10 @@ export default function HomePage() {
       <div className="text-black">
         <p>Filtering Table</p>
         <SortingTable />
+      </div>
+      <div className="text-black">
+        <p>Column Visibility Table</p>
+        <ColumnVisibilityTable />
       </div>
     </div>
   );
